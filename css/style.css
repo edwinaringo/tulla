@@ -44,10 +44,15 @@
     font-weight: 600;
     transition: .5s;
 }
+.btn-services{
+    justify-content: center;
+    
+}
 
 .btn.btn-primary,
 .btn.btn-secondary {
     color: #FFFFFF;
+    justify-content: center;
 }
 
 .btn-square {
