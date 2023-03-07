@@ -70,6 +70,13 @@ html{
                 color:$green;
             }
         }
+
+        #nav-close{
+            font-size: 5rem;
+            cursor: pointer;
+            color:$black;
+            display: none;
+        }
     }
 
     .icons a,
@@ -83,4 +90,99 @@ html{
             color: $green;
         }
     }
+
+    #menu-btn{
+        display: none;
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//media queries
+
+@media(max-width:1200px){
+    .header{
+        padding: 2rem;
+    }
+}
+
+@media(max-width:991px){
+
+    html{
+        font-size: 55%;
+    }
+}
+
+@media(max-width:768px){
+    .header{
+        #menu-btn{
+            display: inline-block;
+        }
+     
+
+     .navbar{
+        position: fixed;
+        top:0;left:-110%;
+        background: $white;
+        z-index:10000;
+        width: 35rem;
+        height: 100%;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        // transform: translateX(-);
+
+        &.active{
+            left: 0;
+            box-shadow: 0 0 0 100vw rgba(0,0,0,.8);
+        }
+
+        a{
+            margin: 1rem 0;
+            font-size: 3rem;
+        }
+
+        #nav-close{
+            display:block;
+            position: absolute;
+            top: 1rem; right:2rem;
+        }
+    }
+    }
+
+ }
+
+
+
+@media(max-width:450px){
+
+    html{
+        font-size: 50%;
+    }
+}
+
+
