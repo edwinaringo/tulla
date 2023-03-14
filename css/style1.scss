@@ -59,9 +59,11 @@ section{
         font-size: 2.5rem;
         color: $black;
         font-weight: bolder;
+        
 
-        i{
-            color:$green;
+        img{
+            max-height: 100px;
+            max-width: 100px;
         }
     }
 

@@ -47,8 +47,9 @@ section {
   color: #10221b;
   font-weight: bolder;
 }
-.header .logo i {
-  color: #219150;
+.header .logo img {
+  max-height: 100px;
+  max-width: 100px;
 }
 .header .navbar a {
   margin-left: 2rem;
