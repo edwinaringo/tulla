@@ -18,7 +18,7 @@ html {
   scroll-padding-top: 5rem;
 }
 html::-webkit-scrollbar {
-  width: 1rem;
+  width: 0.5rem;
 }
 html::-webkit-scrollbar-track {
   background: #fff;
@@ -29,21 +29,6 @@ html::-webkit-scrollbar-thumb {
 
 section {
   padding: 5rem 9%;
-}
-
-.btn {
-  margin-top: 1rem;
-  display: inline-block;
-  border: 0.2rem solid #10221b;
-  color: #10221b;
-  cursor: pointer;
-  background: none;
-  font-size: 1.7rem;
-  padding: 1rem 3rem;
-}
-.btn:hover {
-  background: #10221b;
-  color: #fff;
 }
 
 .header {
