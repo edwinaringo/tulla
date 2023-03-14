@@ -27,6 +27,25 @@ html::-webkit-scrollbar-thumb {
   background: #10221b;
 }
 
+section {
+  padding: 5rem 9%;
+}
+
+.btn {
+  margin-top: 1rem;
+  display: inline-block;
+  border: 0.2rem solid #10221b;
+  color: #10221b;
+  cursor: pointer;
+  background: none;
+  font-size: 1.7rem;
+  padding: 1rem 3rem;
+}
+.btn:hover {
+  background: #10221b;
+  color: #fff;
+}
+
 .header {
   position: fixed;
   top: 0;
@@ -49,7 +68,7 @@ html::-webkit-scrollbar-thumb {
 .header .navbar a {
   margin-left: 2rem;
   font-size: 1.7rem;
-  color: #10221b;
+  color: #fff;
 }
 .header .navbar a:hover {
   color: #219150;
@@ -65,7 +84,7 @@ html::-webkit-scrollbar-thumb {
   font-size: 2.5rem;
   margin-left: 2rem;
   cursor: pointer;
-  color: #10221b;
+  color: #fff;
 }
 .header .icons a:hover,
 .header .icons div:hover {
@@ -133,9 +152,44 @@ html::-webkit-scrollbar-thumb {
   color: #219150;
 }
 
+.home {
+  padding: 0;
+}
+.home .box {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background-size: cover !important;
+  background-position: center !important;
+  justify-content: flex-start;
+  padding: 2rem 9%;
+}
+.home .box.second {
+  justify-content: flex-end;
+}
+.home .box .content {
+  width: 50rem;
+}
+.home .box .content span {
+  font-size: 4rem;
+  color: #10221b;
+}
+.home .box .content h3 {
+  font-size: 6rem;
+  color: #114627;
+  padding-top: 0.5rem;
+  text-transform: uppercase;
+}
+.home .box .content h3.girrafe {
+  color: #0a2b18;
+}
+
 @media (max-width: 1200px) {
   .header {
     padding: 2rem;
+  }
+  section {
+    padding: 3rem 2rem;
   }
 }
 @media (max-width: 991px) {
@@ -167,6 +221,7 @@ html::-webkit-scrollbar-thumb {
   .header .navbar a {
     margin: 1rem 0;
     font-size: 3rem;
+    color: #10221b;
   }
   .header .navbar #nav-close {
     display: block;

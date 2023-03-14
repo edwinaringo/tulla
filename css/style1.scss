@@ -41,6 +41,25 @@ html{
     }
 }
 
+section{
+    padding: 5rem 9%;
+}
+
+.btn{
+    margin-top: 1rem;
+    display:inline-block;
+    border: $border;
+    color: $black;
+    cursor: pointer;
+    background: none;
+    font-size: 1.7rem;
+    padding:1rem 3rem; 
+
+    &:hover{
+        background: $black;
+        color: $white;
+    }
+}
 .header{
     position: fixed;
     top: 0; left: 0; right:0;
@@ -64,7 +83,7 @@ html{
         a{
             margin-left: 2rem;
             font-size: 1.7rem;
-            color: $black;
+            color: $white;
 
             &:hover{
                 color:$green;
@@ -84,7 +103,7 @@ html{
         font-size: 2.5rem;
         margin-left:2rem;
         cursor: pointer;
-        color:$black;
+        color:$white;
 
         &:hover{
             color: $green;
@@ -162,6 +181,47 @@ html{
     }
 }
 
+.home{
+    padding:0;
+
+    .box{
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        background-size: cover !important;
+        background-position: center !important;
+        justify-content: flex-start;
+        padding: 2rem 9%;
+
+        &.second{
+            justify-content: flex-end;
+
+        }
+
+        .content{
+            width:50rem;
+
+            span{
+                font-size: 4rem;
+                color: $black;
+
+            }
+
+            h3{
+                font-size: 6rem;
+                color: #114627;
+                padding-top: .5rem;
+                text-transform: uppercase;
+
+                &.girrafe{
+                    color: #0a2b18;
+                }
+            }
+        }
+
+    }
+}
+
 
 
 
@@ -187,6 +247,10 @@ html{
 @media(max-width:1200px){
     .header{
         padding: 2rem;
+    }
+
+    section{
+        padding: 3rem 2rem;
     }
 }
 
@@ -220,11 +284,13 @@ html{
         &.active{
             left: 0;
             box-shadow: 0 0 0 100vw rgba(0,0,0,.8);
+            
         }
 
         a{
             margin: 1rem 0;
             font-size: 3rem;
+            color: $black;
         }
 
         #nav-close{
