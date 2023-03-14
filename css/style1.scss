@@ -210,6 +210,11 @@ section{
     }
 }
 
+.swiper-button-next:after,
+.swiper-button-prev:after{
+    font-size: 3rem;
+    color:$black;
+}
 
 
 
@@ -246,6 +251,30 @@ section{
 
     html{
         font-size: 55%;
+    }
+
+
+    .home .box{
+        justify-content: center;
+        background-position: right !important;
+
+        &.second{
+        justify-content: center;
+        background-position: right !important;
+              
+        }
+
+        .content{
+            text-align:center;
+
+            span{
+                font-size: 3rem;
+            }
+
+            h3{
+                font-size: 4rem;
+            }
+        }
     }
 }
 

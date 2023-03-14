@@ -170,6 +170,12 @@ section {
   color: #0a2b18;
 }
 
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  font-size: 3rem;
+  color: #10221b;
+}
+
 @media (max-width: 1200px) {
   .header {
     padding: 2rem;
@@ -181,6 +187,23 @@ section {
 @media (max-width: 991px) {
   html {
     font-size: 55%;
+  }
+  .home .box {
+    justify-content: center;
+    background-position: right !important;
+  }
+  .home .box.second {
+    justify-content: center;
+    background-position: right !important;
+  }
+  .home .box .content {
+    text-align: center;
+  }
+  .home .box .content span {
+    font-size: 3rem;
+  }
+  .home .box .content h3 {
+    font-size: 4rem;
   }
 }
 @media (max-width: 768px) {
