@@ -255,6 +255,7 @@ section{
 
 
     .home .box{
+        padding:2rem;
         justify-content: center;
         background-position: right !important;
 
@@ -317,6 +318,11 @@ section{
         }
     }
     }
+
+    .swiper-button-next:after,
+    .swiper-button-prev:after{
+    display: none;
+}
 
  }
 

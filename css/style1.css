@@ -189,6 +189,7 @@ section {
     font-size: 55%;
   }
   .home .box {
+    padding: 2rem;
     justify-content: center;
     background-position: right !important;
   }
@@ -237,6 +238,10 @@ section {
     position: absolute;
     top: 1rem;
     right: 2rem;
+  }
+  .swiper-button-next:after,
+  .swiper-button-prev:after {
+    display: none;
   }
 }
 @media (max-width: 450px) {
