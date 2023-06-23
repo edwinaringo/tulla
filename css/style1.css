@@ -46,10 +46,27 @@ section {
   color: #fff;
 }
 
+.btn-images {
+  margin-top: 1rem;
+  display: inline-block;
+  border: 0.2rem solid #10221b;
+  color: #10221b;
+  cursor: pointer;
+  background: none;
+  font-size: 1.7rem;
+  padding: 1rem 3rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.btn-images:hover {
+  background: #10221b;
+  color: #fff;
+}
+
 .heading {
   text-align: center;
   margin-bottom: 2.5rem;
-  font-size: 3rem;
+  font-size: 2rem;
   color: #10221b;
 }
 
@@ -63,10 +80,6 @@ section {
   display: flex;
   align-items: center;
 }
-.header.active {
-  background: #fff;
-  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
-}
 .header .logo {
   margin-right: auto;
   font-size: 2.5rem;
@@ -74,8 +87,8 @@ section {
   font-weight: bolder;
 }
 .header .logo img {
-  max-height: 70px;
-  max-width: 70px;
+  max-height: 65px;
+  max-width: 65px;
 }
 .header .navbar a {
   margin-left: 2rem;
@@ -85,14 +98,14 @@ section {
 .header .navbar a:hover {
   color: #219150;
 }
+.header .navbar a.active {
+  justify-content: center;
+}
 .header .navbar #nav-close {
   font-size: 5rem;
   cursor: pointer;
   color: #10221b;
   display: none;
-}
-.header .navbar.active a {
-  color: #0a2b18;
 }
 .header .icons a,
 .header .icons div {
@@ -197,6 +210,22 @@ section {
 }
 .home .box .content h3.girrafe {
   color: #0a2b18;
+}
+.home .box .content-diani {
+  width: 50rem;
+}
+.home .box .content-diani span {
+  font-size: 4rem;
+  color: #007694;
+}
+.home .box .content-diani h3 {
+  font-size: 6rem;
+  color: #00aeff;
+  padding-top: 0.5rem;
+  text-transform: uppercase;
+}
+.home .box .content-diani h3.girrafe {
+  color: #00aeff;
 }
 
 .hero {

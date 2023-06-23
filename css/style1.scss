@@ -61,11 +61,29 @@ section{
     }
 }
 
+.btn-images{
+    margin-top: 1rem;
+    display: inline-block;
+    border:$border;
+    color:$black;
+    cursor: pointer;
+    background: none;
+    font-size: 1.7rem;
+    padding: 1rem 3rem;
+    text-align: center;   
+    margin-bottom: 20px;
+
+    &:hover{
+        background: $black;
+        color: $white;
+    }
+}
+
 
 .heading{
     text-align: center;
     margin-bottom: 2.5rem;
-    font-size: 3rem;
+    font-size: 2rem;
     color:$black;
 }
 
@@ -77,10 +95,10 @@ section{
     display: flex;
     align-items: center;
 
-    &.active{
-        background: $white;
-        box-shadow: $box-shadow;
-    }
+    // &.active{
+    //     background: $white;
+    //     box-shadow: $box-shadow;
+    // }
     
 
     .logo{
@@ -91,8 +109,8 @@ section{
         
 
         img{
-            max-height: 70px;
-            max-width: 70px;
+            max-height: 65px;
+            max-width: 65px;
         }
     }
 
@@ -106,6 +124,12 @@ section{
                 color:$green;
             }
 
+            &.active{
+                    justify-content: center;
+                     
+            }
+
+
         }
 
         #nav-close{
@@ -113,11 +137,6 @@ section{
             cursor: pointer;
             color:$black;
             display: none;
-        }
-        &.active{
-            a{
-                color: #0a2b18;
-            }
         }
 
     }
@@ -242,6 +261,27 @@ section{
                     color: #0a2b18;
                 }
             }
+        }
+        .content-diani{
+            width:50rem;
+
+            span{
+                font-size: 4rem;
+                color: #007694;
+
+            }
+
+            h3{
+                font-size: 6rem;
+                color: #00aeff;
+                padding-top: .5rem;
+                text-transform: uppercase;
+
+                &.girrafe{
+                    color: #00aeff;
+                }
+            }
+
         }
 
     }
