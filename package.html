@@ -1,51 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
     <meta charset="utf-8">
-    <title>Tulla Travels</title>
+    <title>Tulla Travel</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
-    <meta content="" name="description">
+    <meta content="" name="description"> 
 
+    
     <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
+    <!--<link href="img/favicon.ico" rel="icon"> -->
 
     <!-- Google Web Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+   <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
+   <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> -->
+   <!-- <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">-->
 
     <!-- Icon Font Stylesheet -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+   <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">-->
 
-    <!-- Libraries Stylesheet -->
-    <link href="lib/animate/animate.min.css" rel="stylesheet">
-    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
 
-    <!-- Customized Bootstrap Stylesheet -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+   <!--bootstrap sheet-->
+   <link rel="stylesheet" href="css/bootstrap2.css">
+    <!--Custom CSS file-->
+    <link rel= "stylesheet" href="css/style1.css">
 
-    <!-- Template Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
 
-    <!-- Favicon-->
-    <link rel="shortcut icon" type="x-icon" href="images/newlogo.jpg">
+  
+    <!-- Back to Top 
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a> -->
+
 </head>
-
+ 
 <body>
-    <!-- Spinner Start -->
-    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
-            <span class="sr-only">Loading...</span>
-        </div>
-    </div>
-    <!-- Spinner End -->
 
-
-    <!-- Topbar Start -->
+    <!-- Topbar Start 
     <div class="container-fluid bg-dark px-5 d-none d-lg-block">
         <div class="row gx-0">
             <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
@@ -58,777 +51,164 @@
             <div class="col-lg-4 text-center text-lg-end">
                 <div class="d-inline-flex align-items-center" style="height: 45px;">
                  
-                                   <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="https://www.instagram.com/tulla_travel/" target="_blank"><i class="fab fa-instagram fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="https://www.instagram.com/tulla_travel/" target="_blank"><i class="fab fa-instagram fw-normal"></i></a>
                     <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="https://chatwith.io/s/tulla-agency-1" target="_blank"><i class="fab fa-whatsapp fw-normal"></i></a>
                     <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="https://www.facebook.com/tullatravel/" target="_blank"><i class="fab fa-facebook fw-normal"></i></a>
                     <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href="https://www.linkedin.com/company/tulla-travel-travel/" target="_blank"><i class="fab fa-linkedin fw-normal"></i></a>
 
+
+
                 </div>
             </div>
         </div>
     </div>
-    <!-- Topbar End -->
+     Topbar End -->
+
+<!--header section starts-->
+
+<header class="header">
+    <a href="#" class = "logo"> <img src="images/tulla.jpg" alt="Logo" > </a>
+
+    <nav class = "navbar">
+        <div id="nav-close" class="fas fa-times"></div> 
+        <div class ="links">
+        <a href = "index.html">Home</a>
+        <a href = "about.html">About</a>
+       <!--<a href = "#services">Services</a> -->
+        <a href = "package.html">Packages</a>
+        <a href = "#destinations">Destinations</a>
+        <a href = "#contact">Contacts</a>
+        </div>
+    </nav>
+
+    <div class= "icons">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <!--<a href="#" class="fas fa-shopping-cart"></a>-->
+        <div id ="search-btn" class="fas fa-search"></div>
+
+    </div>
+</header> 
+<!--header section ends-->
 
 
-    <!-- Navbar & Hero Start -->
-    <div class="container-fluid position-relative p-0">
-        <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
-            <a href="index.html" class="navbar-brand p-0">
-               <!-- <h1 class="text-primary m-0"><i class="fa fa-map-marker-alt me-3"></i>Tourist</h1> -->
-               <img src="images/newlogo.jpg" alt="Logo" >  
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                <span class="fa fa-bars"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <div class="navbar-nav ms-auto py-0">
-                    <a href="index.html" class="nav-item nav-link">Home</a>
-                    <a href="about.html" class="nav-item nav-link">About</a>
-                    <a href="service.html" class="nav-item nav-link">Services</a>
-                    <a href="package.html" class="nav-item nav-link active">Packages</a>
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Destinations</a>
-                        <div class="dropdown-menu m-0">
-                            <a href="destination.html" class="dropdown-item">Destinations</a>
-                            <a href="dubai.html" class="dropdown-item">Dubai</a>
-                            <a href="diani.html" class="dropdown-item">Diani</a>
-                            <a href="maldives.html" class="dropdown-item">Maldives</a>
-                            <a href="turkey.html" class="dropdown-item">Turkey</a>
-                        </div>
+<!--search form-->
+<div class="search-form">
+    <div id="close-search" class="fas fa-times"></div>
+    <form action="">
+        <input type="search" name="" placeholder="Eg: Maasai Mara" id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+    </form>
+</div>
+
+<!--search form ends here-->
+
+<!--About Hero Starts here-->
+<section class="home" id="home">
+    <div class = "swiper home-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="box second" style="background: url(images/hero1.jpg) no-repeat;">
+                    <div class="content">
+                        <span>Tulla Travel</span>
+                        <h3 class="girrafe">Packages</h3> 
                     </div>
-                    <a href="contact.html" class="nav-item nav-link">Contact</a>
-               <!-- </div>
-                <a href="" class="btn btn-primary rounded-pill py-2 px-4">Register</a>
-            </div> -->
-        </nav>
+                </div>
+            </div>
+        </div>
+    </div> 
+</section>
+<!--About hero ends here-->
 
-        <div class="container-fluid bg-primary py-5 mb-5 hero-header">
-            <div class="container py-5">
-                <div class="row justify-content-center py-5">
-                    <div class="col-lg-10 pt-lg-5 mt-lg-5 text-center">
-                        <h1 class="display-3 text-white animated slideInDown">Packages</h1>
-                        <nav aria-label="breadcrumb">
-                            <ol class="breadcrumb justify-content-center">
-                                <li class="breadcrumb-item"><a href="#">Home</a></li>
-                                <li class="breadcrumb-item"><a href="#">Pages</a></li>
-                                <li class="breadcrumb-item text-white active" aria-current="page">Packages</li>
-                            </ol>
-                        </nav>
+<!--about section sarts-->
+<section class ="about-packages" id="about"> 
+    <div class="content">
+        <h3>Tulla Travel</h3>
+        <p>Tulla Adventures offer a once-in-a-lifetime experience. We offer bespoke dive and safari packages that involve a few days on safari in the African savannah, a stay on the magnificent Diani Beach, and several days scuba diving.</p>
+        <p>If we don’t offer a specific package to fit your needs then we can custom-build one for you based on what you want to do.</p>
+    </div>
+</section>
+<!--about section ends-->
+
+<!--Beach packages section ends here-->
+<section class="home" id="home">
+    <div class = "swiper home-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="box" style="background: url(images/boys.jpg) no-repeat;">
+                    <div class="content">
+                        <span>Beach</span>
+                        <h3 class="girrafe">Packages</h3>
+                        <a href="#" class="btn-images">Explore Packages</a> 
+                    </div>
+
+                </div>
+            </div>        
+    </div> 
+<!--Beach Packages section ends here-->
+
+<!--about section sarts-->
+<section class ="about-packages" id="about"> 
+    <div class="content">
+        <h3>Tulla Facts</h3>
+        <p>Kenya offers some of the most amazing experiences that any person could wish for.</p>
+        <p>It is famous for its World-renowned African wildlife, found in its numerous National Parks, as well as the spectacular vistas of the Great Rift Valley, the peaks of Mt Kenya and Mt Kilimanjaro.</p>
+    </div>
+</section>
+<!--about section ends-->
+
+
+<!--Kenya top attractions section starts-->
+    <div class = "swiper home-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="box second" style="background: url(images/hero6.jpg) no-repeat;">
+                    <div class="content">
+                        <span>kenya's top</span>
+                        <h3 class="girrafe">attractions</h3>
+                        <a href="#" class="btn-images">Explore Packages</a>                 
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Navbar & Hero End -->
+<!--Kenya top attraction section ends-->
+
+<!--about section sarts-->
+<section class ="about-packages" id="about"> 
+    <div class="content">
+        <h3>Tulla Facts</h3>
+        <p>While its global claim to fame is that it is the world’s largest desert lake, Lake Turkana is also Kenya’s largest lake. It is located in the north of the Great Rift Valley.</p>
+        <p>It is also listed as a UNESCO World Heritage Site as part of the three Lake Turkana National Parks – Sibiloi National Park, Central Island National Park and South Island National Park.</p>
+    </div>
+</section>
+<!--about section ends-->
 
 
-   <!-- Package Start -->
-   <div class="container-xxl py-5">
-    <div class="container">
-        <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-            <h6 class="section-title bg-white text-center text-primary px-3">Packages</h6>
-            <h1 class="mb-5">Awesome Packages</h1>
-        </div>
-        <div class="row g-4 justify-content-center">
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                <div class="package-item">
-                    <div class="overflow-hidden">
-                        <img class="img-fluid" src="images/main-dubai.jpg" alt="">
-                    </div>
-                    <div class="d-flex border-bottom">
-                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-map-marker-alt text-primary me-2"></i>Dubai Packages</small>
-
-                    </div>
-                    <div class="text-center p-4">
-                        <h3 class="mb-0">Starting from $957</h3>
-                        <div class="mb-3">
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                        </div>
-                        <p>Discover the wonders of the Dubai Desert and 5 star hotels</p>
-                        <div class="d-flex justify-content-center mb-2">
-                            <a href="dubai.html" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
-                            <a href="dubai.html" class="btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Book Now</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                <div class="package-item">
-                    <div class="overflow-hidden">
-                        <img class="img-fluid" src="images/diani.jpg" alt="" style="object-fit: cover;">
-                    </div>
-                    <div class="d-flex border-bottom">
-                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-map-marker-alt text-primary me-2"></i>Diani Packages</small>
-                    </div>
-                    <div class="text-center p-4">
-                        <h3 class="mb-0">Starting from Ksh 11,900</h3>
-                        <div class="mb-3">
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                        </div>
-                        <p>With fully paid flights to and fro, Diani is the place to be</p>
-                        <div class="d-flex justify-content-center mb-2">
-                            <a href="diani.html" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
-                            <a href="diani.html" class="btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Book Now</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                <div class="package-item">
-                    <div class="overflow-hidden">
-                        <img class="img-fluid" src="images/istanbul.jpeg" width = "auto" height = "auto" alt="" style="object-fit: cover;">
-                    </div>
-                    <div class="d-flex border-bottom">
-                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-map-marker-alt text-primary me-2"></i>Turkey</small>
-                    </div>
-                    <div class="text-center p-4">
-                        <h3 class="mb-0">Starting from $566.00</h3>
-                        <div class="mb-3">
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                        </div>
-                        <p>Full day tours of the Prince's Islands</p>
-                        <div class="d-flex justify-content-center mb-2">
-                            <a href="turkey.html" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
-                            <a href="turkey.html" class="btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Book Now</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                <div class="package-item">
-                    <div class="overflow-hidden">
-                        <img class="img-fluid" src="images/maldives.jpeg" width = "auto" height = "auto" alt="" style="object-fit: cover;">
-                    </div>
-                    <div class="d-flex border-bottom">
-                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-map-marker-alt text-primary me-2"></i>Maldives</small>
-                    </div>
-                    <div class="text-center p-4">
-                        <h3 class="mb-0">Starting from $2541.00</h3>
-                        <div class="mb-3">
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                        </div>
-                        <p>Minumum of 2 pax</p>
-                        <div class="d-flex justify-content-center mb-2">
-                            <a href="maldives.html" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
-                            <a href="maldives.html" class="btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Book Now</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                <div class="package-item">
-                    <div class="overflow-hidden">
-                        <img class="img-fluid" src="images/camp.jpg" width = "auto" height = "auto" alt="" style="object-fit: cover;">
-                    </div>
-                    <div class="d-flex border-bottom">
-                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-map-marker-alt text-primary me-2"></i>Finch Hattons</small>
-                    </div>
-                    <div class="text-center p-4">
-                        <h3 class="mb-0">Starting from $656.00</h3>
-                        <div class="mb-3">
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                        </div>
-                        <p>Up to 20% off on rates</p>
-                        <div class="d-flex justify-content-center mb-2">
-                            <a href="#" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
-                            <a href="#" class="btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Book Now</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                <div class="package-item">
-                    <div class="overflow-hidden">
-                        <img class="img-fluid" src="images/kempinski.jpg" width = "auto" height = "auto" alt="" style="object-fit: cover;">
-                    </div>
-                    <div class="d-flex border-bottom">
-                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-map-marker-alt text-primary me-2"></i>Villa Rosa Kempinski</small>
-                    </div>
-                    <div class="text-center p-4">
-                        <h3 class="mb-0">Starting from $220.00</h3>
-                        <div class="mb-3">
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                        </div>
-                        <p>Valid from 1st January to 31st December 2022</p>
-                        <div class="d-flex justify-content-center mb-2">
-                            <a href="#" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
-                            <a href="#" class="btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Book Now</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                <div class="package-item">
-                    <div class="overflow-hidden">
-                        <img class="img-fluid" src="images/olare.jpg" width = "auto" height = "auto" alt="" style="object-fit: cover;">
-                    </div>
-                    <div class="d-flex border-bottom">
-                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-map-marker-alt text-primary me-2"></i>Olare Mara Kempinski</small>
-                    </div>
-                    <div class="text-center p-4">
-                        <h3 class="mb-0">Starting from Ksh 95,550</h3>
-                        <div class="mb-3">
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                        </div>
-                        <p>Valid from 1st January to 31st December 2022</p>
-                        <div class="d-flex justify-content-center mb-2">
-                            <a href="#" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
-                            <a href="#" class="btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Book Now</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                <div class="package-item">
-                    <div class="overflow-hidden">
-                        <img class="img-fluid" src="images/tsh.jpg" width = "auto" height = "auto" alt="" style="object-fit: cover;">
-                    </div>
-                    <div class="d-flex border-bottom">
-                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-map-marker-alt text-primary me-2"></i>The Social House</small>
-                    </div>
-                    <div class="text-center p-4">
-                        <h3 class="mb-0">Starting from $165.00</h3>
-                        <div class="mb-3">
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                        </div>
-                        <p>Offer valid from 8th Sept 2022 to 31st Dec 2023</p>
-                        <div class="d-flex justify-content-center mb-2">
-                            <a href="#" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
-                            <a href="#" class="btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Book Now</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                <div class="package-item">
-                    <div class="overflow-hidden">
-                        <img class="img-fluid" src="images/crown.jpg" width = "auto" height = "auto" alt="" style="object-fit: cover;">
-                    </div>
-                    <div class="d-flex border-bottom">
-                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-map-marker-alt text-primary me-2"></i>Crowne Plaza Nairobi Airport Hotel</small>
-                    </div>
-                    <div class="text-center p-4">
-                        <h3 class="mb-0">Starting from $145.00</h3>
-                        <div class="mb-3">
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                        </div>
-                        <p>Offer valid from 1st Jan 2023 to 31st December 2023</p>
-                        <div class="d-flex justify-content-center mb-2">
-                            <a href="#" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
-                            <a href="#" class="btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Book Now</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                <div class="package-item">
-                    <div class="overflow-hidden">
-                        <img class="img-fluid" src="images/hippo.jpg" width = "auto" height = "auto" alt="" style="object-fit: cover;">
-                    </div>
-                    <div class="d-flex border-bottom">
-                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-map-marker-alt text-primary me-2"></i>Naivasha Packages</small>
-                    </div>
-                    <div class="text-center p-4">
-                        <h3 class="mb-0">Starting from Ksh 7,500</h3>
-                        <div class="mb-3">
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                        </div>
-                        <p>Offer valid from 1st Jan 2022 to 31st December 2022</p>
-                        <div class="d-flex justify-content-center mb-2">
-                            <a href="naivasha.html" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
-                            <a href="naivasha.html" class="btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Book Now</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                <div class="package-item">
-                    <div class="overflow-hidden">
-                        <img class="img-fluid" src="images/mombasa.jpg" width = "auto" height = "auto" alt="" style="object-fit: cover;">
-                    </div>
-                    <div class="d-flex border-bottom">
-                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-map-marker-alt text-primary me-2"></i>Mombasa Packages</small>
-                    </div>
-                    <div class="text-center p-4">
-                        <h3 class="mb-0">Starting from Ksh 30,000</h3>
-                        <div class="mb-3">
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                        </div>
-                        <p>Offer valid from 1st Jan 2022 to 31st December 2022</p>
-                        <div class="d-flex justify-content-center mb-2">
-                            <a href="mombasa.html" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
-                            <a href="mombasa.html" class="btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Book Now</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                <div class="package-item">
-                    <div class="overflow-hidden">
-                        <img class="img-fluid" src="images/dhow.jpeg" width = "auto" height = "auto" alt="" style="object-fit: cover;">
-                    </div>
-                    <div class="d-flex border-bottom">
-                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-map-marker-alt text-primary me-2"></i>Lamu Packages</small>
-                    </div>
-                    <div class="text-center p-4">
-                        <h3 class="mb-0">Starting from Ksh 28,000</h3>
-                        <div class="mb-3">
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                        </div>
-                        <p>Offer valid from 1st Jan 2022 to 31st December 2022</p>
-                        <div class="d-flex justify-content-center mb-2">
-                            <a href="lamu.html" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
-                            <a href="lamu.html" class="btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Book Now</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                <div class="package-item">
-                    <div class="overflow-hidden">
-                        <img class="img-fluid" src="images/jorbug.jpg" width = "auto" height = "auto" alt="" style="object-fit: cover;">
-                    </div>
-                    <div class="d-flex border-bottom">
-                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-map-marker-alt text-primary me-2"></i>South Africa Packages</small>
-                    </div>
-                    <div class="text-center p-4">
-                        <h3 class="mb-0">Starting from $720</h3>
-                        <div class="mb-3">
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                        </div>
-                        <p>Offer valid from 1st Jan 2022 to 31st December 2022</p>
-                        <div class="d-flex justify-content-center mb-2">
-                            <a href="southAfrica.html" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
-                            <a href="southAfrica.html" class="btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Book Now</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                <div class="package-item">
-                    <div class="overflow-hidden">
-                        <img class="img-fluid" src="images/nairobi1.jpg" width = "auto" height = "auto" alt="" style="object-fit: cover;">
-                    </div>
-                    <div class="d-flex border-bottom">
-                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-map-marker-alt text-primary me-2"></i>Nairobi Packages</small>
-                    </div>
-                    <div class="text-center p-4">
-                        <h3 class="mb-0">Starting from $276</h3>
-                        <div class="mb-3">
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                        </div>
-                        <p>Offer valid from 1st Jan 2022 to 31st December 2022</p>
-                        <div class="d-flex justify-content-center mb-2">
-                            <a href="nairobi.html" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
-                            <a href="nairobi.html" class="btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Book Now</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                <div class="package-item">
-                    <div class="overflow-hidden">
-                        <img class="img-fluid" src="images/zanzibar.jpg" width = "auto" height = "auto" alt="" style="object-fit: cover;">
-                    </div>
-                    <div class="d-flex border-bottom">
-                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-map-marker-alt text-primary me-2"></i>Zanzibar Packages</small>
-                    </div>
-                    <div class="text-center p-4">
-                        <h3 class="mb-0">Starting from $492</h3>
-                        <div class="mb-3">
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                        </div>
-                        <p>Offer valid from 1st Jan 2022 to 31st December 2022</p>
-                        <div class="d-flex justify-content-center mb-2">
-                            <a href="zanzibar.html" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
-                            <a href="zanzibar.html" class="btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Book Now</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                <div class="package-item">
-                    <div class="overflow-hidden">
-                        <img class="img-fluid" src="images/thailand.jpeg" width = "auto" height = "auto" alt="" style="object-fit: cover;">
-                    </div>
-                    <div class="d-flex border-bottom">
-                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-map-marker-alt text-primary me-2"></i>Thailand Packages</small>
-                    </div>
-                    <div class="text-center p-4">
-                        <h3 class="mb-0">Starting from $744</h3>
-                        <div class="mb-3">
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                        </div>
-                        <p>Offer valid from 1st Jan 2022 to 31st December 2022</p>
-                        <div class="d-flex justify-content-center mb-2">
-                            <a href="thailand.html" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
-                            <a href="thailand.html" class="btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Book Now</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                <div class="package-item">
-                    <div class="overflow-hidden">
-                        <img class="img-fluid" src="images/mauritius.jpg" width = "auto" height = "auto" alt="" style="object-fit: cover;">
-                    </div>
-                    <div class="d-flex border-bottom">
-                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-map-marker-alt text-primary me-2"></i>Mauritius Packages</small>
-                    </div>
-                    <div class="text-center p-4">
-                        <h3 class="mb-0">Starting from $738</h3>
-                        <div class="mb-3">
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                        </div>
-                        <p>Offer valid from 1st Jan 2022 to 31st December 2022</p>
-                        <div class="d-flex justify-content-center mb-2">
-                            <a href="mauritius.html" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
-                            <a href="mauritius.html" class="btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Book Now</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                <div class="package-item">
-                    <div class="overflow-hidden">
-                        <img class="img-fluid" src="images/cairo.jpg" width = "auto" height = "auto" alt="" style="object-fit: cover;">
-                    </div>
-                    <div class="d-flex border-bottom">
-                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-map-marker-alt text-primary me-2"></i>Egypt Packages</small>
-                    </div>
-                    <div class="text-center p-4">
-                        <h3 class="mb-0">Starting from $1044</h3>
-                        <div class="mb-3">
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                        </div>
-                        <p>Offer valid from 1st Jan 2022 to 31st December 2022</p>
-                        <div class="d-flex justify-content-center mb-2">
-                            <a href="egypt.html" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
-                            <a href="egypt.html" class="btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Book Now</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                <div class="package-item">
-                    <div class="overflow-hidden">
-                        <img class="img-fluid" src="images/trunk.jpeg" width = "auto" height = "auto" alt="" style="object-fit: cover;">
-                    </div>
-                    <div class="d-flex border-bottom">
-                        <small class="flex-fill text-center border-end py-2"><i class="fa fa-map-marker-alt text-primary me-2"></i>Maasai Mara Packages</small>
-                    </div>
-                    <div class="text-center p-4">
-                        <h3 class="mb-0">Starting from $348</h3>
-                        <div class="mb-3">
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                            <small class="fa fa-star text-primary"></small>
-                        </div>
-                        <p>Offer valid from 1st Jan 2022 to 31st December 2022</p>
-                        <div class="d-flex justify-content-center mb-2">
-                            <a href="maasaiMara.html" class="btn btn-sm btn-primary px-3 border-end" style="border-radius: 30px 0 0 30px;">Read More</a>
-                            <a href="maasaiMara.html" class="btn btn-sm btn-primary px-3" style="border-radius: 0 30px 30px 0;">Book Now</a>
-                        </div>
-                    </div>
+<!--weekend section starts-->
+<div class = "swiper home-slider">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <div class="box second" style="background: url(images/nairobi2.jpg) no-repeat;">
+                <div class="content">
+                    <span>weekend</span>
+                    <h3 class="girrafe">gateaway</h3>
+                    <a href="#" class="btn-images">Explore Packages</a>                 
                 </div>
             </div>
         </div>
     </div>
 </div>
-<!-- Package End -->
-
+<!--weekend section ends-->
     
-
-    <!-- Booking Start 
-    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
-        <div class="container">
-            <div class="booking p-5">
-                <div class="row g-5 align-items-center">
-                    <div class="col-md-6 text-white">
-                        <h6 class="text-white text-uppercase">Booking</h6>
-                        <h1 class="text-white mb-4">Online Booking</h1>
-                        <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit.</p>
-                        <p class="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                        <a class="btn btn-outline-light py-3 px-5 mt-2" href="">Read More</a>
-                    </div>
-                    <div class="col-md-6">
-                        <h1 class="text-white mb-4">Book A Tour</h1>
-                        <form>
-                            <div class="row g-3">
-                                <div class="col-md-6">
-                                    <div class="form-floating">
-                                        <input type="text" class="form-control bg-transparent" id="name" placeholder="Your Name">
-                                        <label for="name">Your Name</label>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-floating">
-                                        <input type="email" class="form-control bg-transparent" id="email" placeholder="Your Email">
-                                        <label for="email">Your Email</label>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-floating date" id="date3" data-target-input="nearest">
-                                        <input type="text" class="form-control bg-transparent datetimepicker-input" id="datetime" placeholder="Date & Time" data-target="#date3" data-toggle="datetimepicker" />
-                                        <label for="datetime">Date & Time</label>
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-floating">
-                                        <select class="form-select bg-transparent" id="select1">
-                                            <option value="1">Destination 1</option>
-                                            <option value="2">Destination 2</option>
-                                            <option value="3">Destination 3</option>
-                                        </select>
-                                        <label for="select1">Destination</label>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="form-floating">
-                                        <textarea class="form-control bg-transparent" placeholder="Special Request" id="message" style="height: 100px"></textarea>
-                                        <label for="message">Special Request</label>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <button class="btn btn-outline-light w-100 py-3" type="submit">Book Now</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-     Booking Start -->
+</section>
+<!--packages images section end-->
 
 
-    <!-- Process Start -->
-    <div class="container-xxl py-5">
-        <div class="container">
-            <div class="text-center pb-4 wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="section-title bg-white text-center text-primary px-3">Process</h6>
-                <h1 class="mb-5">3 Easy Steps</h1>
-            </div>
-            <div class="row gy-5 gx-4 justify-content-center">
-                <div class="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="position-relative border border-primary pt-5 pb-4 px-4">
-                        <div class="d-inline-flex align-items-center justify-content-center bg-primary rounded-circle position-absolute top-0 start-50 translate-middle shadow" style="width: 100px; height: 100px;">
-                            <i class="fa fa-globe fa-3x text-white"></i>
-                        </div>
-                        <h5 class="mt-4">Choose A Destination</h5>
-                        <hr class="w-25 mx-auto bg-primary mb-1">
-                        <hr class="w-50 mx-auto bg-primary mt-0">
-                        <p class="mb-0">Choose among our 234 destinations all across the world</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="position-relative border border-primary pt-5 pb-4 px-4">
-                        <div class="d-inline-flex align-items-center justify-content-center bg-primary rounded-circle position-absolute top-0 start-50 translate-middle shadow" style="width: 100px; height: 100px;">
-                            <i class="fa fa-dollar-sign fa-3x text-white"></i>
-                        </div>
-                        <h5 class="mt-4">Pay Online</h5>
-                        <hr class="w-25 mx-auto bg-primary mb-1">
-                        <hr class="w-50 mx-auto bg-primary mt-0">
-                        <p class="mb-0">Payment can be made using mobile banking on our website or mobile application</p>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-sm-6 text-center pt-4 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="position-relative border border-primary pt-5 pb-4 px-4">
-                        <div class="d-inline-flex align-items-center justify-content-center bg-primary rounded-circle position-absolute top-0 start-50 translate-middle shadow" style="width: 100px; height: 100px;">
-                            <i class="fa fa-plane fa-3x text-white"></i>
-                        </div>
-                        <h5 class="mt-4">Fly Today</h5>
-                        <hr class="w-25 mx-auto bg-primary mb-1">
-                        <hr class="w-50 mx-auto bg-primary mt-0">
-                        <p class="mb-0">Get cheap flights to all our destinations</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Process Start -->
-        
 
-  <!-- Footer Start -->
-  <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
-    <div class="container py-5">
-        <div class="row g-5">
-            <div class="col-lg-3 col-md-6">
-                <h4 class="text-white mb-3">Company</h4>
-                <a class="btn btn-link" href="">About Us</a>
-                <a class="btn btn-link" href="">Contact Us</a>
-                <a class="btn btn-link" href="">Privacy Policy</a>
-                <a class="btn btn-link" href="">Terms & Condition</a>
-                <a class="btn btn-link" href="">FAQs & Help</a>
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <h4 class="text-white mb-3">Contact</h4>
-                <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Chiromo lane-Eden Park</p>
-                <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>0781311699</p>
-                <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@tullatravel.co.ke</p>
-                <div class="d-flex pt-2">
-                                            <a class="btn btn-outline-light btn-social" href="https://www.instagram.com/tulla_travel/" target = "_blank"><i class="fab fa-instagram"></i></a>
-                        <a class="btn btn-outline-light btn-social" href="https://chatwith.io/s/tulla-agency-1" target="_blank"><i class="fab fa-whatsapp"></i></a>
-                        <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/tullatravel/" target= "_blank"><i class="fab fa-facebook"></i></a>
-                        <a class="btn btn-outline-light btn-social" href="https://www.linkedin.com/company/tulla-travel-travel/" target= "_blank"><i class="fab fa-linkedin"></i></a>                    
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <h4 class="text-white mb-3">Gallery</h4>
-                    <div class="row g-2 pt-2">
-                        <div class="col-4">
-                            <img class="img-fluid bg-light p-1" src="images/zebra.jpg" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img class="img-fluid bg-light p-1" src="images/eq.jpg" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img class="img-fluid bg-light p-1" src="images/elephant.jpg" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img class="img-fluid bg-light p-1" src="images/plane.jpg" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img class="img-fluid bg-light p-1" src="images/coconut.jpg" alt="">
-                        </div>
-                        <div class="col-4">
-                            <img class="img-fluid bg-light p-1" src="images/bridgr.jpg" alt="">
-                        </div>
-                    </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-                <h4 class="text-white mb-3">Newsletter</h4>
-                <p>Sign up to receive our Newsletter</p>
-                <div class="position-relative mx-auto" style="max-width: 400px;">
-                    <input class="form-control border-primary w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                    <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="copyright">
-            <div class="row">
-                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    &copy; <a class="border-bottom" href="#">Tulla travel</a>, All Right Reserved.
-
-                    <!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/-->
-                    Designed By <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
-                </div>
-                <div class="col-md-6 text-center text-md-end">
-                    <div class="footer-menu">
-                        <a href="">Home</a>
-                        <a href="">Cookies</a>
-                        <a href="">Help</a>
-                        <a href="">FQAs</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Footer End -->
-
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+<!--Scripts-->
 
 
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/tempusdominus/js/moment.min.js"></script>
-    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
-    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
 
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
 </body>
-
 </html>
+

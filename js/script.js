@@ -18,27 +18,16 @@ document.querySelector('#search-btn').onclick = () =>{
      searchForm.classList.remove('active');
  }
 
-//  window.onscroll = () =>{
-//      navbar.classList.remove('active');
+ window.onscroll = () =>{
+     navbar.classList.remove('active');
 
-//      if(window.scrollY > 0){
-//         document.querySelector('.header').classList.add('active');
-//      }else{
-//         document.querySelector('.header').classList.remove('active');
-//      }
+     if(window.scrollY > 0){
+        document.querySelector('.header').classList.add('active');
+     }else{
+        document.querySelector('.header').classList.remove('active');
+     }
 
-//   };
-
-//  window.onscroll = () =>{
-//     navbar.classList.remove('on');
-
-//     if(window.scrollY > 0){
-//        document.querySelector('.navbar').classList.add('on');
-//     }else{
-//        document.querySelector('.navbar').classList.remove('on');
-//     }
-
-// };
+  };
 
 
  window.onload = () =>{
