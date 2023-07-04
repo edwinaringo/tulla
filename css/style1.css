@@ -366,6 +366,10 @@ section {
   padding: 1rem 0;
   line-height: 2;
 }
+.about .content span {
+  font-size: 2rem;
+  color: #10221b;
+}
 
 .about-packages {
   background: #eee;
@@ -406,6 +410,56 @@ section {
   color: #10221b;
   padding: 1rem 0;
   line-height: 2;
+}
+.about-packages .content span {
+  font-size: 2rem;
+  color: #219150;
+}
+
+.about-packages-detail {
+  background: #eee;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  height: -moz-fit-content;
+  height: fit-content;
+  width: 100%;
+}
+.about-packages-detail .image {
+  flex: 1 1 42rem;
+  padding-right: 5rem;
+  padding-bottom: 5rem;
+}
+.about-packages-detail .image img {
+  width: 100%;
+  box-shadow: 4rem 4rem 0 rgba(0, 0, 0, 0.1);
+}
+.about-packages-detail .image-about {
+  flex: 1 1 42rem;
+  padding-right: 5rem;
+  padding-bottom: 5rem;
+}
+.about-packages-detail .image-about img {
+  width: 100%;
+  box-shadow: 4rem 4rem 0 rgba(0, 0, 0, 0.1);
+}
+.about-packages-detail .content {
+  flex: 1 1 42rem;
+}
+.about-packages-detail .content h3 {
+  font-size: 3rem;
+  color: #219150;
+}
+.about-packages-detail .content p {
+  font-size: 1.5rem;
+  color: #10221b;
+  padding: 1rem 0;
+  line-height: 2;
+}
+.about-packages-detail .content span {
+  font-size: 2rem;
+  color: #219150;
 }
 
 .packages {
