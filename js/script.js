@@ -29,6 +29,17 @@ document.querySelector('#search-btn').onclick = () =>{
 
   };
 
+  window.onscroll = () =>{
+    navbar.classList.remove('active');
+
+    if(window.scrollY > 0){
+       document.querySelector('.navbar').classList.add('active');
+    }else{
+       document.querySelector('.navbar').classList.remove('active');
+    }
+
+ };
+
 
  window.onload = () =>{
     if(window.scrollY > 0){

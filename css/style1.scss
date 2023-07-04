@@ -98,6 +98,10 @@ section{
     &.active{
         background: $white;
         box-shadow: $box-shadow;
+
+        a{
+            color: $black;
+        }
     }
  
     
@@ -124,15 +128,6 @@ section{
             &:hover{
                 color:$green;
             }
-
-            &.active{
-                
-                        color:black;
-                    
-                     
-            }
-
-
         }
 
         #nav-close{
@@ -140,6 +135,18 @@ section{
             cursor: pointer;
             color:$black;
             display: none;
+        }
+
+        &.active{
+            a{
+                color:$black;
+
+                &:hover{
+                    color: $green;
+                }
+            }
+
+                   
         }
 
     }
