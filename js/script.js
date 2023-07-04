@@ -30,12 +30,12 @@ document.querySelector('#search-btn').onclick = () =>{
   };
 
   window.onscroll = () =>{
-    navbar.classList.remove('active');
+    navbar.classList.remove('on');
 
     if(window.scrollY > 0){
-       document.querySelector('.navbar').classList.add('active');
+       document.querySelector('.navbar').classList.add('on');
     }else{
-       document.querySelector('.navbar').classList.remove('active');
+       document.querySelector('.navbar').classList.remove('on');
     }
 
  };

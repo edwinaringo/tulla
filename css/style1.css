@@ -111,10 +111,10 @@ section {
   color: #10221b;
   display: none;
 }
-.header .navbar.active a {
+.header .navbar.on a {
   color: #10221b;
 }
-.header .navbar.active a:hover {
+.header .navbar.on a:hover {
   color: #219150;
 }
 .header .icons a,
@@ -130,6 +130,10 @@ section {
 }
 .header #menu-btn {
   display: none;
+}
+.header #menu-btn.active {
+  align-content: center;
+  display: block;
 }
 
 .search-form {

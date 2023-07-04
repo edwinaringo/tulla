@@ -137,16 +137,14 @@ section{
             display: none;
         }
 
-        &.active{
+        &.on{
             a{
                 color:$black;
 
                 &:hover{
                     color: $green;
                 }
-            }
-
-                   
+            }        
         }
 
     }
@@ -166,6 +164,11 @@ section{
 
     #menu-btn{
         display: none;
+
+        &.active{
+            align-content: center;
+            display: block;
+        }
     }
 }
 
