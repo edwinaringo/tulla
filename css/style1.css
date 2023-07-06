@@ -522,6 +522,23 @@ section {
   color: #219150;
 }
 
+.details-btn,
+.btn {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: #eee;
+}
+.details-btn a,
+.btn a {
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  padding: 14px 70px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 .footer .butn.btn-social {
   margin-right: 5px;
   width: 35px;
