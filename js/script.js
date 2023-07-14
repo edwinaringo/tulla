@@ -4,7 +4,7 @@ document.querySelector('#menu-btn').onclick = () =>{
     navbar.classList.add('active');
 }
 
- document.querySelector('#nav-close').onclick = () =>{
+document.querySelector('#nav-close').onclick = () =>{
      navbar.classList.remove('active');
  }
 
@@ -29,16 +29,16 @@ document.querySelector('#search-btn').onclick = () =>{
 
   };
 
-  window.onscroll = () =>{
-    navbar.classList.remove('on');
+//   window.onscroll = () =>{
+//     links.classList.remove('on');
 
-    if(window.scrollY > 0){
-       document.querySelector('.navbar').classList.add('on');
-    }else{
-       document.querySelector('.navbar').classList.remove('on');
-    }
+//     if(window.scrollY > 0){
+//        document.querySelector('.links').classList.add('on');
+//     }else{
+//        document.querySelector('.links').classList.remove('on');
+//     }
 
- };
+//  };
 
 
  window.onload = () =>{

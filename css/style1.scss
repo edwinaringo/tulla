@@ -102,7 +102,11 @@ section{
         a{
             color: $black;
         }
+
+        
     }
+
+
  
     
 
@@ -112,7 +116,6 @@ section{
         color: $black;
         font-weight: bolder;
         
-
         img{
             max-height: 65px;
             max-width: 65px;
@@ -128,6 +131,12 @@ section{
             &:hover{
                 color:$green;
             }
+
+            &.active{
+                color: $black;
+            }
+
+
         }
 
         #nav-close{
@@ -137,17 +146,21 @@ section{
             display: none;
         }
 
-        &.on{
-            a{
-                color:$black;
 
-                &:hover{
-                    color: $green;
-                }
-            }        
-        }
+
+
+        // &.on{
+        //     a{
+        //         color:$black;
+
+        //         &:hover{
+        //             color: $green;
+        //         }
+        //     }        
+        // }
 
     }
+
 
 
     .icons a,
@@ -850,8 +863,9 @@ form button{
                 background: $white;
                 box-shadow: $box-shadow;
             }
+
+            
         }
-     
 
      .navbar{
         position: fixed;
@@ -870,12 +884,16 @@ form button{
             left: 0;
             box-shadow: 0 0 0 100vw rgba(0,0,0,.8);
             
+            
         }
 
         a{
             margin: 1rem 0;
-            font-size: 3rem;
+            font-size: 4rem;
             color: $black;
+            display: block;
+     
+            text-align: center;
         }
 
         #nav-close{
@@ -889,9 +907,9 @@ form button{
     .swiper-button-next:after,
     .swiper-button-prev:after{
     display: none;
-}
+    }
 
- }
+}
 
 
 

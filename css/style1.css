@@ -105,17 +105,14 @@ section {
 .header .navbar a:hover {
   color: #219150;
 }
+.header .navbar a.active {
+  color: #10221b;
+}
 .header .navbar #nav-close {
   font-size: 5rem;
   cursor: pointer;
   color: #10221b;
   display: none;
-}
-.header .navbar.on a {
-  color: #10221b;
-}
-.header .navbar.on a:hover {
-  color: #219150;
 }
 .header .icons a,
 .header .icons div {
@@ -699,8 +696,10 @@ form button {
   }
   .header .navbar a {
     margin: 1rem 0;
-    font-size: 3rem;
+    font-size: 4rem;
     color: #10221b;
+    display: block;
+    text-align: center;
   }
   .header .navbar #nav-close {
     display: block;
