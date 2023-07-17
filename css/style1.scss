@@ -13,6 +13,7 @@
 
 $green:#219150;
 $black:#10221b;
+$light-green:#00ff0d;
 $white:#fff;
 $light-bg:#eee;
 $border:.2rem solid $black;
@@ -99,7 +100,7 @@ section{
         background: $white;
         box-shadow: $box-shadow;
 
-        a{
+        .navbar .a{
             color: $black;
         }
 
@@ -126,10 +127,10 @@ section{
         a{
             margin-left: 2rem;
             font-size: 1.7rem;
-            color: $white;
+            color: $green;
 
             &:hover{
-                color:$green;
+                color:$light-green;
             }
 
             &.active{
@@ -168,7 +169,7 @@ section{
         font-size: 2.5rem;
         margin-left:2rem;
         cursor: pointer;
-        color:$white;
+        color:$green;
 
         &:hover{
             color: $green;

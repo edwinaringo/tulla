@@ -84,7 +84,7 @@ section {
   background: #fff;
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
 }
-.header.active a {
+.header.active .navbar .a {
   color: #10221b;
 }
 .header .logo {
@@ -100,10 +100,10 @@ section {
 .header .navbar a {
   margin-left: 2rem;
   font-size: 1.7rem;
-  color: #fff;
+  color: #219150;
 }
 .header .navbar a:hover {
-  color: #219150;
+  color: #00ff0d;
 }
 .header .navbar a.active {
   color: #10221b;
@@ -119,7 +119,7 @@ section {
   font-size: 2.5rem;
   margin-left: 2rem;
   cursor: pointer;
-  color: #fff;
+  color: #219150;
 }
 .header .icons a:hover,
 .header .icons div:hover {
