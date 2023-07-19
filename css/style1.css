@@ -79,6 +79,7 @@ section {
   z-index: 1000;
   display: flex;
   align-items: center;
+  height: 90px;
 }
 .header.active {
   background: #fff;
@@ -94,8 +95,8 @@ section {
   font-weight: bolder;
 }
 .header .logo img {
-  max-height: 65px;
-  max-width: 65px;
+  max-height: 150px;
+  max-width: 150px;
 }
 .header .navbar a {
   margin-left: 2rem;
