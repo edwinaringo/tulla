@@ -741,6 +741,7 @@ form button{
                 color: $white;
                 padding: 1rem 0;
 
+
                 i{
                     color:$green; 
                     padding-right: .5rem;
@@ -754,9 +755,20 @@ form button{
                     }
                 }
             }
+
+            .transform{
+                a{
+                    text-transform: lowercase;
+
+                }
+            }
         }
 
     }
+}
+
+.transform{
+    text-transform: lowercase;
 }
 
 
