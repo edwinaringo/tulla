@@ -581,6 +581,37 @@ section{
     }
 }
 
+.services{
+    background: $light-bg;
+
+    .box-container{
+        @include grid(31rem);
+
+        .box{
+            text-align:center;
+            padding: 2rem;
+            border:$border;
+            border-radius: .5rem;
+            background: $white;
+
+            &:hover{
+                color:$green;
+
+            }
+        }
+
+        img{
+            height: 10rem;
+            margin-bottom: 3 rem;
+        }
+
+        h3{
+            font-size: 2rem;
+            color:$green;
+        }
+    }
+}
+
 
 .packages{
     background: $light-bg;
