@@ -644,10 +644,6 @@ form button {
   text-transform: lowercase;
 }
 
-.transform {
-  text-transform: lowercase;
-}
-
 @media (max-width: 1200px) {
   .header {
     padding: 2rem;
