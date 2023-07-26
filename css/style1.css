@@ -63,6 +63,23 @@ section {
   color: #fff;
 }
 
+.btn-images-diani {
+  margin-top: 1rem;
+  display: inline-block;
+  border: 0.2rem solid #fff;
+  color: #fff;
+  cursor: pointer;
+  background: none;
+  font-size: 1.7rem;
+  padding: 1rem 3rem;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.btn-images-diani:hover {
+  background: #fff;
+  color: #219150;
+}
+
 .heading {
   text-align: center;
   margin-bottom: 2.5rem;
@@ -225,19 +242,36 @@ section {
 }
 .home .box .content-diani {
   width: 50rem;
+  align-items: center;
 }
 .home .box .content-diani span {
   font-size: 4rem;
-  color: #007694;
+  color: #fff;
 }
 .home .box .content-diani h3 {
   font-size: 6rem;
-  color: #00aeff;
+  color: #fff;
   padding-top: 0.5rem;
   text-transform: uppercase;
 }
 .home .box .content-diani h3.girrafe {
-  color: #00aeff;
+  color: #fff;
+}
+.home .box .content-schoolTrip {
+  width: 50rem;
+}
+.home .box .content-schoolTrip span {
+  font-size: 4rem;
+  color: #fff;
+}
+.home .box .content-schoolTrip h3 {
+  font-size: 6rem;
+  color: #fff;
+  padding-top: 0.5rem;
+  text-transform: uppercase;
+}
+.home .box .content-schoolTrip h3.girrafe {
+  color: #fff;
 }
 
 .hero {
@@ -673,6 +707,24 @@ form button {
     font-size: 3rem;
   }
   .home .box .content h3 {
+    font-size: 4rem;
+  }
+  .home .box .content-diani {
+    text-align: center;
+  }
+  .home .box .content-diani span {
+    font-size: 3rem;
+  }
+  .home .box .content-diani h3 {
+    font-size: 4rem;
+  }
+  .home .box .content-schoolTrip {
+    text-align: center;
+  }
+  .home .box .content-schoolTrip span {
+    font-size: 3rem;
+  }
+  .home .box .content-schoolTrip h3 {
     font-size: 4rem;
   }
 }

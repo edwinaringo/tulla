@@ -17,6 +17,7 @@ $light-green:#00ff0d;
 $white:#fff;
 $light-bg:#eee;
 $border:.2rem solid $black;
+$border-other:.2rem solid $white;
 $box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
 
 @mixin grid($val) {
@@ -78,6 +79,25 @@ section{
         background: $black;
         color: $white;
     }
+}
+
+.btn-images-diani{
+    margin-top: 1rem;
+    display: inline-block;
+    border:$border-other;
+    color:$white;
+    cursor: pointer;
+    background: none;
+    font-size: 1.7rem;
+    padding: 1rem 3rem;
+    text-align: center;   
+    margin-bottom: 20px;
+
+    &:hover{
+        background: $white;
+        color: $green;
+    }
+
 }
 
 
@@ -292,24 +312,45 @@ section{
         }
         .content-diani{
             width:50rem;
+            align-items: center;
 
             span{
                 font-size: 4rem;
-                color: #007694;
+                color: $white;
 
             }
 
             h3{
                 font-size: 6rem;
-                color: #00aeff;
+                color: $white;
                 padding-top: .5rem;
                 text-transform: uppercase;
 
                 &.girrafe{
-                    color: #00aeff;
+                    color: $white;
                 }
             }
 
+        }
+        .content-schoolTrip{
+            width:50rem;
+
+            span{
+                font-size: 4rem;
+                color: $white;
+
+            }
+
+            h3{
+                font-size: 6rem;
+                color: $white;
+                padding-top: .5rem;
+                text-transform: uppercase;
+
+                &.girrafe{
+                    color: $white;
+                }
+            }
         }
 
     }
@@ -596,7 +637,6 @@ section{
 
             &:hover{
                 color:$green;
-
             }
         }
 
@@ -858,6 +898,31 @@ form button{
                 font-size: 4rem;
             }
         }
+
+        .content-diani{
+            text-align: center;
+
+            span{
+                font-size:3rem;
+            }
+
+            h3{
+                font-size: 4rem;
+            }
+        }
+
+        .content-schoolTrip{
+            text-align: center;
+
+            span{
+                font-size:3rem;
+            }
+
+            h3{
+                font-size: 4rem;
+            }
+        }
+        
     }
 }
 
