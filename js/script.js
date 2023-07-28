@@ -53,6 +53,13 @@ document.querySelector('#search-btn').onclick = () =>{
  var swiper= new Swiper(".home-slider", {
     loop:true,
     grabCursor:true, 
+    effect: 'fade',
+    fadeEffect: {
+      crossFade: true
+    },
+    autoplay: {
+      delay: 5000,
+    },
     navigation: {
         nextE1: ".swiper-button-next",
         prevE1: ".swiper-button-prev",
