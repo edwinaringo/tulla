@@ -7,7 +7,7 @@
     outline: none;
     border: none;
     text-decoration: none;
-    text-transform: capitalize;
+    // text-transform: capitalize;
     transition: .2s linear;
 }
 
@@ -296,6 +296,7 @@ section{
             span{
                 font-size: 4rem;
                 color: $black;
+                text-transform: capitalize;
 
             }
 
@@ -317,6 +318,7 @@ section{
             span{
                 font-size: 4rem;
                 color: $white;
+                text-transform: capitalize;
 
             }
 
@@ -338,6 +340,7 @@ section{
             span{
                 font-size: 4rem;
                 color: $white;
+                text-transform: capitalize;
 
             }
 
@@ -505,6 +508,7 @@ section{
         span{
             font-size: 2rem;
             color: $black;
+            text-transform: capitalize;
 
         }
     }
@@ -549,6 +553,7 @@ section{
         h3{
             font-size: 3rem;
             color:$green;
+            text-transform: capitalize;
         }
 
         p{
@@ -561,6 +566,7 @@ section{
         span{
             font-size: 2rem;
             color: $green;
+            text-transform: capitalize;
 
         }
     }
@@ -892,6 +898,7 @@ form button{
 
             span{
                 font-size: 3rem;
+                text-transform: capitalize;
             }
 
             h3{
@@ -904,6 +911,7 @@ form button{
 
             span{
                 font-size:3rem;
+                text-transform: capitalize;
             }
 
             h3{
@@ -916,6 +924,7 @@ form button{
 
             span{
                 font-size:3rem;
+                text-transform: capitalize;
             }
 
             h3{

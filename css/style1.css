@@ -7,7 +7,6 @@
   outline: none;
   border: none;
   text-decoration: none;
-  text-transform: capitalize;
   transition: 0.2s linear;
 }
 
@@ -230,6 +229,7 @@ section {
 .home .box .content span {
   font-size: 4rem;
   color: #10221b;
+  text-transform: capitalize;
 }
 .home .box .content h3 {
   font-size: 6rem;
@@ -247,6 +247,7 @@ section {
 .home .box .content-diani span {
   font-size: 4rem;
   color: #fff;
+  text-transform: capitalize;
 }
 .home .box .content-diani h3 {
   font-size: 6rem;
@@ -263,6 +264,7 @@ section {
 .home .box .content-schoolTrip span {
   font-size: 4rem;
   color: #fff;
+  text-transform: capitalize;
 }
 .home .box .content-schoolTrip h3 {
   font-size: 6rem;
@@ -401,6 +403,7 @@ section {
 .about .content span {
   font-size: 2rem;
   color: #10221b;
+  text-transform: capitalize;
 }
 
 .about-packages {
@@ -436,6 +439,7 @@ section {
 .about-packages .content h3 {
   font-size: 3rem;
   color: #219150;
+  text-transform: capitalize;
 }
 .about-packages .content p {
   font-size: 1.5rem;
@@ -446,6 +450,7 @@ section {
 .about-packages .content span {
   font-size: 2rem;
   color: #219150;
+  text-transform: capitalize;
 }
 
 .about-packages-detail {
@@ -705,6 +710,7 @@ form button {
   }
   .home .box .content span {
     font-size: 3rem;
+    text-transform: capitalize;
   }
   .home .box .content h3 {
     font-size: 4rem;
@@ -714,6 +720,7 @@ form button {
   }
   .home .box .content-diani span {
     font-size: 3rem;
+    text-transform: capitalize;
   }
   .home .box .content-diani h3 {
     font-size: 4rem;
@@ -723,6 +730,7 @@ form button {
   }
   .home .box .content-schoolTrip span {
     font-size: 3rem;
+    text-transform: capitalize;
   }
   .home .box .content-schoolTrip h3 {
     font-size: 4rem;
