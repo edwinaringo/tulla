@@ -845,6 +845,25 @@ form button{
     }
 }
 
+// header
+.zuri-header {
+    padding: 10px 16px;
+    background: #555;
+    color: #f1f1f1;
+  }
+  
+  /* Page content */
+  .content {
+    padding: 16px;
+  }
+  
+  /* The sticky class is added to the header with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
+
 
 
 
@@ -864,6 +883,8 @@ form button{
 
 
 //media queries
+
+
 
 @media(max-width:1200px){
     .header{
